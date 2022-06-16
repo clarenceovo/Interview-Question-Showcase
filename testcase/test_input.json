@@ -1,0 +1,10 @@
+{
+  "test_create_canvas": ["c 10 10","q" ],
+  "test_create_canvas_add_lines": ["c 30 30","L 1 2 6 2" ,"L 6 3 6 4", "q"],
+  "test_create_canvas_add_rectangle": ["c 30 30", "L 1 2 6 2", "R 8 2 18 21", "q"],
+  "test_create_canvas_add_rectangle_and_outer_fill": ["c 30 30", "R 8 2 18 21" ,"B 2 2 *", "q"],
+  "test_create_canvas_add_rectangle_and_inner_fill": ["c 30 30", "R 8 2 18 21" ,"B 10 10 ^", "q"],
+  "test_create_canvas_out_of_range_line": ["c 30 30", "L 37 10 38 10" , "q"],
+  "test_create_canvas_out_of_range_rectangle": ["c 30 30", "r 40 10 50 20" , "q"],
+  "test_create_canvas_out_of_range_backfill": ["c 30 30", "b 40 40 o" , "q"]
+}
