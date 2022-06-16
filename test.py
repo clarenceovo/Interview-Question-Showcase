@@ -81,3 +81,21 @@ def test_create_canvas_out_of_range_backfill():
     output = get_display_output()
     assert output[2] == test_result['test_create_canvas_out_of_range_backfill'][0]
     assert output[4] == test_result['test_create_canvas_out_of_range_backfill'][1]
+
+def test_create_canvas_out_of_range_line_at_zero():
+    global test_result
+    global test_input
+    set_keyboard_input(test_input['test_create_canvas_out_of_range_line_at_zero'])
+    main_function()
+    output = get_display_output()
+    assert output[2] == test_result['test_create_canvas_out_of_range_line_at_zero'][0]
+    assert output[4] == test_result['test_create_canvas_out_of_range_line_at_zero'][1]
+
+def test_create_canvas_out_of_range_line_at_negative():
+    global test_result
+    global test_input
+    set_keyboard_input(test_input['test_create_canvas_out_of_range_line_at_negative'])
+    main_function()
+    output = get_display_output()
+    assert output[2] == test_result['test_create_canvas_out_of_range_line_at_negative'][0]
+    assert output[4] == test_result['test_create_canvas_out_of_range_line_at_negative'][1]

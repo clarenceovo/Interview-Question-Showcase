@@ -48,6 +48,10 @@ class draw_something:
     def draw_rectangle(self,start_point:tuple,end_point:tuple):
         if (start_point[0] > end_point[0]) or (start_point[1]>start_point[1]):
             print("The start point and end point of the input cannot construct a rectangle")
+            return
+        if (start_point[0] <=0 or  end_point[0] <=0) or (start_point[1] <=0 > start_point[1]<=0):
+            print("The X and Y Coordinate of start point and/or end point must be greater than 0 ")
+            return
         else:
             #print(start_point)
             #print(end_point)
