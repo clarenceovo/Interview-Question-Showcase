@@ -31,5 +31,15 @@
   "test_create_canvas_out_of_range_line_at_negative": [
     "\n------------------------------\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n|                              |\n------------------------------\n"
     ,"The X and Y Coordinate of start point and/or end point must be greater than 0 "
-  ]
+  ],
+  "test_create_canvas_create_canva_wrong_input_type": ["Wrong Input Type"],
+  "test_create_canvas_create_canva_missing_input": ["The input format is invaild"],
+  "test_create_canvas_add_line_wrong_input_type": ["Wrong Input Type"],
+  "test_create_canvas_add_line_missing_input": ["The input format is invaild"],
+  "test_create_canvas_add_line_not_horizontal_nor_vertical_line_1": ["Please draw either horizontal or vertical lines"],
+  "test_create_canvas_add_line_not_horizontal_nor_vertical_line_2": ["Please draw either horizontal or vertical lines"],
+  "test_create_canvas_add_rectanlge_missing_input": ["Wrong Input Type"],
+  "test_create_canvas_add_rectanlge_wrong_input_type": ["Wrong Input Type"],
+  "test_create_canvas_fill_missing_input": ["The input format is invaild"],
+  "test_create_canvas_fill_wrong_input_type": ["Wrong Input Type"]
 }
